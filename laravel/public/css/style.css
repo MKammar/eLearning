@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:wght@300;400&family=Noto+Serif&display=swap');
+/* .footer{
+    background-image: linear-gradient(-90deg, #6495ED, #00008B);
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+  }
+
+  .address{
+    font-size:80%;
+    margin:0px;
+  }
+
+ .navbar {
+
+
+    background-image: linear-gradient(-90deg, #6495ED, #00008B);
+
+} */
+/*
+.nav-link{
+    font-size: 16px;
+
+    font-weight: 500;
+} */
+
+/* .carousel-1{
+    background-image: linear-gradient(-90deg,  #FFFAF0,#6495ED);
+}
+
+.row-content{
+
+    margin-top: 100px;
+}
+
+[tabindex="-1"]:focus:not(:focus-visible) {
+  outline: 0 !important;
+}
+
+.container{
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.carousel-caption h5 {
+    color: black;
+}
+
+.carousel-caption p {
+    color: black;
+}
+
+
+.title{
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.title::after{
+    content: '';
+    width: 30%;
+    background-image: linear-gradient(-90deg,  #FFFAF0,#6495ED);
+    height: 9px;
+    position: absolute;
+    bottom: -12%; left: 50%;
+    border-radius: 10px;
+    transition: all 500ms ease;
+
+
+}
+
+.title:hover::after{
+    left:0% ;
+    width: 100%;
+}
+.card{
+    display: grid;
+    grid-template-areas: "image" "text" "stats";
+    box-shadow: 5px 5px 15px  rgba(0, 0, 0, 0.9);
+    transition: 0.5s ease;
+}
+.card-img-top{
+    grid-area: image;
+}
+
+.card-text{
+    grid-area: text;
+}
+
+.card-border{
+    margin-top: 10px;
+}
+
+.card:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.register{
+    background-image:linear-gradient(-90deg,  #FFFAF0,#6495ED) ;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+.col-grid {
+    border: 2px solid #d0d1d3;
+    height: 150px;
+    padding-top: 10px;
+}
+
+.col-grid-title {
+    font-weight: bold;
+    padding: 5px;
+}
+
+.media img{
+    clip-path: circle();
+}
+.media-body h5{
+    font-weight: bold;
+}
+.media-body blockquote{
+    font-style: oblique;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 20px;
+}
+.btn-courses{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+#carouselSubjects .carousel-indicators li {
+
+      background-color: #6495ED !important;
+      border-radius: 100%;
+      width: 10px;
+      height: 10px;
+
+  }
+@media(max-width : 1278px){
+    .row-grid{
+
+        height: 100px;
+    }
+    .col-grid {
+        border: 2px solid #d0d1d3;
+        height: 100px;
+    }
+
+}
+
+.img {
+    opacity: 0.5;
+    width: 1000px;
+    height: 500px;
+  }
+
+  @media(max-width: 700px){
+      .img {
+          opacity: 0.5;
+          width: 800px;
+          height: 500px;
+        }
+  }
+
+  @media(max-width: 643px){
+      .img {
+          opacity: 0.5;
+          width: 500px;
+          height: 300px;
+        }
+        .about {
+            width: 300px;
+            padding-top: 10px;
+            height: 250px;
+
+        }
+  }
+
+  .img:hover {
+    opacity: 1.0;
+  }
+
+  section {
+      padding: 0 100px;
+      background: url(../Images/teacher.jpg);
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      height: 100vh;
+
+  }
+
+  .box{
+      position: absolute;
+      max-width: 600px;
+      padding: 50px;
+      background: rgba(255,255,255,0.2);
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+     margin-top: 70px;
+  } */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .centered h2 {
+      font-size: 6vw;
+      font-family: 'Merriweather', serif;
+  }
+  .centered p {
+      text-align: center;
+      font-size: 1vw;
+      font-family: 'Merriweather', serif;
+  }
+.centered a {
+
+    background-color: #FA8072;
+}
+.title {
+    margin-top: 50px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Noto Serif', serif;
+
+    font-size: 40px;
+}
+.row-grid {
+    margin-top: 20px ;
+    text-align: center;
+}
+.row-services {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.row-register {
+    margin-top: 100px;
+    background-color: #E9F7EF;
+    margin-bottom: 30px;
+}
+
+.row-team {
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: #D7DBDD;
+}

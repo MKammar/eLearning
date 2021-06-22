@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mpeg7>
+ 
+<MultiMediaContent  xsi:type="ImageType" id="image">
+<Description  xsi:type="SemanticDescriptionType">
+<Image>
+<Semantics>
+
+<Label>
+ <Name> Alex is shaking hands with Ana in New York on the 9th of September </Name>
+ </Label>
+
+<SemanticBase xsi:type="AgentObjectType" id="AO1">
+ <Label href="urn:example:acs">
+ <Person> Alex </Person>
+ </Label>
+ </SemanticBase>
+
+<SemanticBase xsi:type="AgentObjectType" id="AO2">
+ <Label href="urn:example:acs">
+ <Person> Ana </Person>
+ </Label>
+ </SemanticBase>
+
+<SemanticBase xsi:type="SemanticPlaceType" id="SP1">
+ <Label href="urn:example:acs">
+ <Place>NewYork </Place>
+ </Label>
+ </SemanticBase>
+
+<SemanticBase xsi:type="SemanticTimeType" id="ST1">
+ <Label href="urn:example:acs">
+ <Time>9 September</Time>
+ </Label>
+ </SemanticBase>
+
+
+<SemanticBase xsi:type="ConceptType" id="C1">
+ <Label ><Name>Comradeship</Name></Label>.
+ <Property>Associate</Property>
+ <Property>Friend</Property>
+<Relation xsi:type="ObjectConceptRelationType" name="symbolizedBy" target="#EV1"/>
+ </SemanticBase>
+
+<SemanticBase xsi:type="EventType" id="EV1">
+<Label><Name>Shake Hands</Name> </Label>
+<Relation xsi:type="ObjectEventRelationType" name="agent" target="#AO1"/>
+<Relation xsi:type="ObjectEventRelationType" name="accompanier" target="#AO2"/>
+<Relation xsi:type="ObjectEventRelationType" name="location" target="#SP1"/>
+<Relation xsi:type="ObjectEventRelationType" name="time" target="#ST1"/>
+<Relation xsi:type="ObjectEventRelationType" name="depictedBy" target="#image"/>
+ </SemanticBase>
+
+
+
+</Semantics>
+<MediaLocator>
+<MediaUri>
+image.jpg
+</MediaUri>
+</MediaLocator>
+		<StillRegion id="SR">
+			<TextAnnotation>
+				<FreeTextAnnotation>
+					Alex shakes hands with Ana
+				</FreeTextAnnotation>
+			</TextAnnotation>
+			
+			<SpatialDecomposition gap="true" overlap="false">
+				<StillRegion id="AlexSR">
+					
+						<TextAnnotation>
+							<FreeTextAnnotation>
+								Alex
+							</FreeTextAnnotation>
+						</TextAnnotation>	
+					<VisualDescriptor xsi:type="ScalableColorType">	
+						<Coef></Coef>
+					</VisualDescriptor>
+				</StillRegion>
+				<StillRegion id="AnaSR">
+					
+						<TextAnnotation>
+							<FreeTextAnnotation>
+								Ana
+							</FreeTextAnnotation>
+						</TextAnnotation>	
+					<VisualDescriptor xsi:type="ScalableColorType">
+						<Coef></Coef>	
+					</VisualDescriptor>
+				</StillRegion>
+
+			</SpatialDecomposition>
+		<StillRegion>
+
+	
+</Image>
+</MultiMediaContent>
+</Description >
+</Mpeg7>
